@@ -27,7 +27,7 @@ def main():
     unit_to=st.text_input("Enter the value you want from conversion(e.g meters,kilometers,grams,kilograms,meters,centimeters )") 
     if st.button("convert"):
         result= convert_units(value,unit_from,unit_to)
-        st.write("conveteted value is",result)
+        st.write("converted value is",result)
     # print("unit converter")
     # print("Welcome to Unit Converter!")
     # value=float(input("Enter the Value you Want to convert:"))
